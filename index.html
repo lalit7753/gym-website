@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym Home Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="#home" class="active">HOME</a></li>
+      <li><a href="#features">ABOUT US</a></li>
+      <li><a href="#classes">CLASSES</a></li>
+      <li><a href="#pricing">SERVICES</a></li>
+      <li><a href="#trainers">OUR TEAM</a></li>
+      <li><a href="#registration">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <div class="slider" id="home">
+    <div class="slides" id="slides">
+      <div class="slide" style="background-image: url('home\ 1.webp');">
+        <div class="content">
+          <div class="pre">Shape your body</div>
+          <h1><span class="accent">Be</span> <span>Strong</span><br><span>Training Hard</span></h1>
+          <p class="lead">Join the best gym today — strong body, strong mind.</p>
+          <a class="btn-cta" href="contact.html" role="button" aria-label="Get more information">Get Info</a>
+        </div>
+      </div>
+      <div class="slide" style="background-image: url('home\ 2.webp');">
+        <div class="content">
+          <div class="pre">Shape your body</div>
+          <h1><span class="accent">Be</span> <span>Strong</span><br><span>Training Hard</span></h1>
+          <p class="lead">Push your limits with expert trainers and modern equipment.</p>
+          <a class="btn-cta" href="contact.html" role="button" aria-label="Get more information">Get Info</a>
+        </div>
+      </div>
+    </div>
+    <button class="arrow left" onclick="prevSlide()">&#10094;</button>
+    <button class="arrow right" onclick="nextSlide()">&#10095;</button>
+  </div>
+
+  <section class="section" id="features">
+    <div class="section-title">
+      <div class="subtitle">WHY CHOSE US?</div>
+      <h2>PUSH YOUR LIMITS FORWARD</h2>
+    </div>
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">🏋️</div>
+        <h3>Modern equipment</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+          facilisis.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🥗</div>
+        <h3>Healthy nutrition plan</h3>
+        <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">📋</div>
+        <h3>Professional training plan</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+          facilisis.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🎯</div>
+        <h3>Unique to your needs</h3>
+        <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="classes">
+    <div class="section-title">
+      <div class="subtitle">OUR CLASSES</div>
+      <h2>WHAT WE CAN OFFER</h2>
+    </div>
+    <div class="classes-grid">
+      <div class="class-card">
+        <img src="weight 2.jpeg" alt="Weightlifting">
+        <div class="class-content">
+          <div class="class-type">STRENGTH</div>
+          <h3 class="class-title">WEIGHTLIFTING</h3>
+        </div>
+        <div class="service-band">
+          <div class="service-band-inner">
+            <ul class="service-list">
+              <li>Yoga</li>
+              <li>Gym</li>
+              <li>PT</li>
+              <li>Gymnastics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="class-card">
+        <img src="cycle 1.webp" alt="Indoor Cycling">
+        <div class="class-content">
+          <div class="class-type">CARDIO</div>
+          <h3 class="class-title">INDOOR CYCLING</h3>
+        </div>
+        <div class="service-band">
+          <div class="service-band-inner">
+            <ul class="service-list">
+              <li>Yoga</li>
+              <li>Gym</li>
+              <li>PT</li>
+              <li>Gymnastics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="class-card">
+        <img src="kettlibell 1.webp" alt="Kettlebell Power">
+        <div class="class-content">
+          <div class="class-type">STRENGTH</div>
+          <h3 class="class-title">KETTLEBELL POWER</h3>
+        </div>
+        <div class="service-band">
+          <div class="service-band-inner">
+            <ul class="service-list">
+              <li>Yoga</li>
+              <li>Gym</li>
+              <li>PT</li>
+              <li>Gymnastics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section" id="pricing">
+    <div class="section-title">
+      <div class="subtitle">OUR PLAN</div>
+      <h2>CHOOSE YOUR PRICING PLAN</h2>
+    </div>
+    <div class="pricing-grid">
+      <div class="price-card">
+        <h3 class="price-title">Class drop-in</h3>
+        <div class="price">₹ 3499</div>
+        <div class="price-subtitle">SINGLE CLASS</div>
+        <ul class="price-features">
+          <li>Free riding</li>
+          <li>Unlimited equipments</li>
+          <li>Personal trainer</li>
+          <li>Weight losing classes</li>
+          <li>Month to month</li>
+          <li>No time restriction</li>
+        </ul>
+        <a href="#" class="enroll-btn">ENROLL NOW</a>
+      </div>
+      <div class="price-card">
+        <h3 class="price-title">12 Month unlimited</h3>
+        <div class="price">₹ 9999</div>
+        <div class="price-subtitle">SINGLE CLASS</div>
+        <ul class="price-features">
+          <li>Free riding</li>
+          <li>Unlimited equipments</li>
+          <li>Personal trainer</li>
+          <li>Weight losing classes</li>
+          <li>Month to month</li>
+          <li>No time restriction</li>
+        </ul>
+        <a href="#" class="enroll-btn">ENROLL NOW</a>
+      </div>
+      <div class="price-card">
+        <h3 class="price-title">6 Month unlimited</h3>
+        <div class="price">₹ 8999</div>
+        <div class="price-subtitle">SINGLE CLASS</div>
+        <ul class="price-features">
+          <li>Free riding</li>
+          <li>Unlimited equipments</li>
+          <li>Personal trainer</li>
+          <li>Weight losing classes</li>
+          <li>Month to month</li>
+          <li>No time restriction</li>
+        </ul>
+        <a href="#" class="enroll-btn">ENROLL NOW</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="trainers">
+    <div class="section-title">
+      <div class="subtitle">OUR TEAM</div>
+      <h2>TRAIN WITH EXPERTS</h2>
+    </div>
+    <div class="trainer-slider">
+      <div class="trainer-slides">
+        <div class="expert-card" onclick="showTrainerInfo(0, this)">
+          <img src="trainer 1.jpg" alt="John Smith">
+          <div class="trainer-hover">
+            <span>Click to view details</span>
+          </div>
+          <div class="trainer-band">
+            <div class="trainer-band-inner">
+              <h3 class="trainer-name">John Smith</h3>
+              <div class="trainer-role">Head Fitness Trainer</div>
+            </div>
+          </div>
+        </div>
+        <div class="expert-card" onclick="showTrainerInfo(1, this)">
+          <img src="trainer4.jpg" alt="Sarah Johnson">
+          <div class="trainer-hover">
+            <span>Click to view details</span>
+          </div>
+          <div class="trainer-band">
+            <div class="trainer-band-inner">
+              <h3 class="trainer-name">Sarah Johnson</h3>
+              <div class="trainer-role">Yoga & Wellness Expert</div>
+            </div>
+          </div>
+        </div>
+        <div class="expert-card" onclick="showTrainerInfo(2, this)">
+          <img src="trainer 3.jpg" alt="Mike Wilson">
+          <div class="trainer-hover">
+            <span>Click to view details</span>
+          </div>
+          <div class="trainer-band">
+            <div class="trainer-band-inner">
+              <h3 class="trainer-name">Mike Wilson</h3>
+              <div class="trainer-role">Sports Performance Specialist</div>
+            </div>
+          </div>
+        </div>
+        <div class="expert-card" onclick="showTrainerInfo(3, this)">
+          <img src="trainer5.jpg" alt="Deni Danials">
+          <div class="trainer-hover">
+            <span>Click to view details</span>
+          </div>
+          <div class="trainer-band">
+            <div class="trainer-band-inner">
+              <h3 class="trainer-name">Deni Danials</h3>
+              <div class="trainer-role">Gymnastics Coach</div>
+            </div>
+          </div>
+        </div>
+        <div class="expert-card" onclick="showTrainerInfo(4, this)">
+          <img src="trainer2.jpg" alt="Jon Sinaa">
+          <div class="trainer-hover">
+            <span>Click to view details</span>
+          </div>
+          <div class="trainer-band">
+            <div class="trainer-band-inner">
+              <h3 class="trainer-name">Jon Sinaa</h3>
+              <div class="trainer-role">Weight Trainer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="trainer-arrow left" onclick="prevTrainer()">&#10094;</button>
+      <button class="trainer-arrow right" onclick="nextTrainer()">&#10095;</button>//
+    </div>
+  </section>
+
+
+  <div class="trainer-modal" id="trainerModal">
+    <div class="trainer-modal-content">
+      <button class="close-trainer-modal" onclick="closeTrainerModal()">&times;</button>
+      <div class="trainer-info">
+        <img id="trainerModalImg" src="" alt="Trainer">
+        <h2 id="trainerName"></h2>
+        <p id="trainerPosition"></p>
+        <p id="trainerBio"></p>
+        <div class="trainer-specialties">
+          <h3>Specialties:</h3>
+          <ul id="trainerSpecialties"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section" id="registration">
+    <div class="section-title">
+      <h2>REGISTRATION NOW TO GET MORE DEALS</h2>
+      <p>WHERE HEALTH, BEAUTY AND FITNESS MEET.</p>
+    </div>
+    <div style="text-align: center;">
+      <a href="#" class="enroll-btn">APPOINTMENT</a>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-links">
+        <h3 class="footer-title">Useful links</h3>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Classes</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h3 class="footer-title">Support</h3>
+        <ul>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">My account</a></li>
+          <li><a href="#">Subscribe</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h3 class="footer-title">Tips & Guides</h3>
+        <ul>
+          <li><a href="#">Physical fitness may help prevent depression, anxiety</a></li>
+          <li><a href="#">Fitness: The best exercise to lose belly fat and tone up...</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright © from lalit web devloper | This template is made with ❤️ by lalit</p>
+    </div>
+  </footer>
+
+  <!-- Trainer JS moved to script.js -->
+
+  <!-- Smooth-scroll & active nav moved to script.js -->
+
+  <div class="modal" id="registrationModal">
+    <div class="modal-content">
+      <button class="close-modal" onclick="closeModal()">&times;</button>
+      <h2 style="color: white; margin-bottom: 30px; text-align: center;">Get More Information</h2>
+      <form id="registrationForm" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+          <label for="program">Interested Program</label>
+          <select id="program" name="program" required>
+            <option value="">Select a Program</option>
+            <option value="weight-training">Weight Training</option>
+            <option value="cardio">Cardio Classes</option>
+            <option value="yoga">Yoga</option>
+            <option value="personal-training">Personal Training</option>
+          </select>
+        </div>
+        <button type="submit" class="form-submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Registration modal moved to script.js -->
+
+  <script src="script.js"></script>
+</body>
+
+</html>
